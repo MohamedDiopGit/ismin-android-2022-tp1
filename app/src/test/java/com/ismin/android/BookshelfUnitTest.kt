@@ -4,7 +4,6 @@ import org.junit.Assert.assertEquals
 import org.junit.Before
 import org.junit.Test
 
-
 class BookshelfUnitTest {
     private val theLordOfTheRings = Book(
         title = "The Lord of the Rings",
