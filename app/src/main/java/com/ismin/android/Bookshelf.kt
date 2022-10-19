@@ -7,7 +7,7 @@ class Bookshelf {
     }
 
     fun getBook(title: String) : Book?{
-        return books[title]
+        return books[title] ?: throws RuntimesException("Book not found : $title");
     }
 
     fun getTotalNumberOfBooks() : Int{
